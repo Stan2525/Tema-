@@ -1,0 +1,343 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #FFFFFF;
+
+    font-family: 'Poppins', sans-serif;
+    color: #22343D;
+  }
+
+
+.text {
+    max-width: 1107px;
+    margin: 0 auto; 
+}
+
+.images > div {
+    cursor: pointer;
+}
+
+.images > div:hover > .big-margin {
+    color: #02897A;
+}
+
+.weight {
+    font-weight: 500;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.images > div {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 8px;
+    
+
+    
+    height: 359px;
+    width: 348px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.small {
+    font-size: 16px;
+}
+
+.little-margin {
+    margin: 24px 89px 12px 24px;
+}
+
+.big-margin {
+    margin: 0px 30px 40px 24px;
+}
+
+
+
+.title {
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.options > div {
+    margin-top: 50px;
+    height: 456px;
+    width: 322px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.center {
+ text-align: center;
+}
+
+.center > h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.price {
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.2px;
+    color: #02897A;
+}
+
+.options > div:hover {
+    background-color: #02897A;
+    color: white;
+}
+
+.options > div:hover > .button {
+    background: #FFFFFF;
+    color: #02897A;
+}
+
+.options > div:hover > .price {
+    color: white;
+}
+
+.options > div:hover > .green {
+    color: white;
+}
+
+
+
+.green {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #02897A;
+}
+
+.per-month {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+    color: #AFAFAF;
+
+}
+
+
+.button {
+    width: 139px;
+    height: 44px;
+    background: #02897A;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.clients > div {
+    width: 327px;
+    height: 236px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+
+
+.text-margin {
+    margin: 0px 28px 16px 28px;
+}
+
+.distance {
+    margin-bottom: 50px;
+}
+
+.avatar {
+    margin-left: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #02897A;
+}
+
+.avatar-job {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.description {
+    margin: 0px 14px 23px 28px;
+    display: flex;
+
+}
+
+
+.rating {
+    margin-top: 28px;
+    margin-left: 28px;
+    margin-bottom: 16px;
+
+    font-size: 25px;
+    overflow:hidden;
+}
+.rating input {
+float: right;
+opacity: 0;
+position: absolute;
+}
+.rating a,
+.rating label {
+    float: right;
+    color: #aaa;
+    text-decoration: none;
+    -webkit-transition: color .4s;
+    -moz-transition: color .4s;
+    -o-transition: color .4s;
+    transition: color .4s;
+}
+.rating label:hover ~ label,
+.rating input:focus ~ label,
+.rating label:hover,
+.rating a:hover,
+.rating a:hover ~ a,
+.rating a:focus,
+.rating a:focus ~ a		{
+    color: orange;
+    cursor: pointer;
+}
+.rating2 {
+    direction: ltr;
+}
+.rating2 a {
+    float:none
+}
+
+
+.end {
+    margin-left: 78px;
+    width: 968px;
+    height: 345px;
+    background-color: #02897A;
+    border-radius: 32px;
+    display: flex;
+
+}
+
+.conclusion {
+    margin: 49px 10px 98px 51px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    color: #FFFFFF;
+}
+
+.end > img {
+    margin-right: 0px;
+    width: 371px;
+    height: 351px;
+
+}
+
+.white {
+    background: #FFFFFF;
+    color: #02897A;
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #02897A;
+}
+
+.end > button {
+    align-self: flex-end;
+    
+}
+
+.move {
+    margin: 0px 370px 56px 51px;
+}
+
+
+@media screen and (max-width: 1500px) {
+    
+    .images { 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .a {
+        text-align: center;
+        
+    }
+
+    .images > div {
+        border: none;
+        box-shadow: none;
+    }
+    .images {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .title {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .clients {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .clients > div {
+        margin-bottom: 32px;
+    }
+
+    .end {
+        display: flex;
+        flex-direction: column;
+        width: 371px;
+        height: 688px;
+    }
+
+}
